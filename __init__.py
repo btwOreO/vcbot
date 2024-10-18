@@ -1,20 +1,4 @@
-# Ultroid - UserBot
-# Copyright (C) 2021-2022 TeamUltroid
-#
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
-
-# ----------------------------------------------------------#
-#                                                           #
-#    _   _ _   _____ ____   ___ ___ ____   __     ______    #
-#   | | | | | |_   _|  _ \ / _ \_ _|  _ \  \ \   / / ___|   #
-#   | | | | |   | | | |_) | | | | || | | |  \ \ / / |       #
-#   | |_| | |___| | |  _ <| |_| | || |_| |   \ V /| |___    #
-#    \___/|_____|_| |_| \_\\___/___|____/     \_/  \____|   #
-#                                                           #
-# ----------------------------------------------------------#
-
+# oreo
 
 import asyncio
 import os
@@ -92,7 +76,7 @@ class Player:
         try:
             await vcClient(
                 functions.phone.CreateGroupCallRequest(
-                    self._chat, title="🎧 Ultroid Music 🎶"
+                    self._chat, title="🎧 Music 🎶"
                 )
             )
         except Exception as e:
