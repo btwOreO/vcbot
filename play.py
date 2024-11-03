@@ -193,7 +193,7 @@ async def radio_mirchi(e):
     await jarSongs.group_call.start_audio(song)
     await xx.reply(
         f"• Started Radio 📻\n\n• Station : `{song}`",
-        file="https://telegra.ph/file/d09d4461199bdc7786b01.mp4",
+        file="https://raw.githubusercontent.com/btwOreO/JarvisMedia/refs/heads/main/img8.jpg",
     )
     await xx.delete()
 
